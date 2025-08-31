@@ -2,7 +2,11 @@
 
 namespace App\Webhook;
 
-class TenantWebhook
+class TenantWebhook implements TenantWebhookI
 {
 
+    public function updateTenant($data): void
+    {
+        // TODO: Implement updateTenant() method.
+    }
 }
